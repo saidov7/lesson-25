@@ -208,4 +208,141 @@ i {
 
 .okesent {
   margin-bottom: 30px;
+}
+
+@media (max-width: 1410px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .head-img img {
+    width: 600px;
+    left: -10px;
+  }
+}
+@media (max-width: 1410px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (max-width: 1145px) {
+  .nav {
+    background: #F0C53E;
+  }
+  .cont1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btr {
+    padding-bottom: 1px !important;
+  }
+  .head-img img {
+    width: 600px;
+    left: -10px;
+    top: -10px;
+  }
+  .soon {
+    flex-direction: column;
+  }
+  .soon i {
+    display: none !important;
+  }
+}
+@media (max-width: 1145px) {
+  .info h1 {
+    font-size: 35px;
+  }
+  .info p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .btr {
+    flex-direction: column;
+  }
+  .cont {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .btne {
+    display: none !important;
+  }
+  .cont1 .head-info h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .cont1 .head-info p {
+    text-align: center;
+    padding-right: 1px;
+  }
+  .okesent {
+    flex-direction: column;
+  }
+}
+@media (max-width: 620px) {
+  .head-img img {
+    width: 400px;
+    left: -10px;
+  }
+  .info h1 {
+    font-size: 25px;
+  }
+  .info p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 520px) {
+  .btr .osh {
+    display: none !important;
+  }
+  .cont1 .head-info h1, p {
+    font-size: 25px;
+    text-align: center;
+  }
+  .okesent .sem {
+    width: 350px;
+    height: 260px;
+  }
+}
+@media (max-width: 399px) {
+  .menu {
+    display: none !important;
+  }
+  .cont1 .head-info h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .cont1 {
+    margin-top: 1px !important;
+  }
+  .cont1 .head-info p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .okesent .sem {
+    width: 350px;
+    height: 260px;
+  }
+  .info {
+    margin-top: 1px;
+  }
+  .info p {
+    font-size: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .info h1 {
+    font-size: 16px;
+  }
+  .head-img img {
+    width: 308px !important;
+    left: 0 !important;
+  }
+  .okesent .sem {
+    width: 300px;
+    height: 240px;
+  }
 }/*# sourceMappingURL=main.css.map */
